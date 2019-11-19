@@ -20,3 +20,12 @@ Here's the board support string to add in your arduino preferences:
     https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json
     
 Info in the file LGinfo.txt, and of course, in the sketch itself.
+Not only does the A/D have more bits of resolution than a stock Nano, in this sketch, 8 samples per interval
+are taken and summed.  The raw result is reported, and you'll just have to take that into account in any scaling.
+This is done to let any noise dither the result a little and get any extra goodness that might be there.
+It's an old DSP trick...
+
+Bonus is the toggle sketch, which simply shows how to use the new fastio feature to toggle a pin.  If you hook up
+a scope to that pin, the speed at which this thing gets around the loop() function is pretty amazing.
+
+I also did this in the data acq sketch, so I could see what effect other things had on the timing.
