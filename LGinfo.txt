@@ -1,0 +1,13 @@
+Arduino version 1.8.10
+
+Board support string lg8f328
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json,https://dl.espressif.com/dl/package_esp32_index.json,https://adafruit.github.io/arduino-board-index/package_adafruit_index.json,https://https://raw.githubusercontent.com/dbuezas/lgt8fx/master/package_lgt8fx_index.json
+
+Youtube ralph bacon: https://www.youtube.com/watch?v=Myfeqrl3QP0
+git for support: https://github.com/dbuezas
+
+Buy: https://www.banggood.com/3pcs-Wemos-TTGO-XI-8F328P-U-Board-Motherboard-For-Arduino-Nano-V3_0-Promini-Or-Replace-p-1338041.html?rmmds=detail-left-hotproducts__1&cur_warehouse=CN
+
+
+
