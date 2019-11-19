@@ -24,6 +24,10 @@ Not only does the A/D have more bits of resolution than a stock Nano, in this sk
 are taken and summed.  The raw result is reported, and you'll just have to take that into account in any scaling.
 This is done to let any noise dither the result a little and get any extra goodness that might be there.
 It's an old DSP trick...
+The sketch has some throwaway one time demo code for an SH1106 display - I recently bought a few and was just
+looking at the lay of the land. I think the way I did this in setup() would not have been fast enough to keep
+up with 10hz in the loop, and those few lines of code are disposable.  But nice to know that a cheap
+OLED display can fit 6 readable lines of text.
 
 Bonus is the toggle sketch, which simply shows how to use the new fastio feature to toggle a pin.  If you hook up
 a scope to that pin, the speed at which this thing gets around the loop() function is pretty amazing.
